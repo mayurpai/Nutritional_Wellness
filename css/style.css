@@ -39,7 +39,7 @@
     flex-wrap: wrap;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 500px) {
     .frontPage {
         height: 15rem;
         width: 15rem;
@@ -51,13 +51,18 @@
     }
 
     .heading {
-        background-position-y: 3.5rem;
+        background-position-y: 1.5rem;
         background-position-x: 0rem;
     }
 
 
     .heading h1 {
         font-size: 1.4rem;
+    }
+
+    .btn.btn-outline-info {
+        margin-right: 2.5rem;
+        /* font-size: .75rem; */
     }
 }
 
@@ -73,12 +78,16 @@
     }
 
     .heading {
-        background-position-y: 3rem;
+        background-position-y: 1rem;
         background-position-x: 0rem;
     }
 
     .heading h1 {
         font-size: 1.8rem;
+    }
+
+    .btn.btn-outline-info {
+        margin-right: 4rem;
     }
 }
 
@@ -94,12 +103,16 @@
     }
 
     .heading {
-        background-position-y: 5rem;
+        background-position-y: 3rem;
         background-position-x: 0rem;
     }
 
     .heading h1 {
         font-size: 2.2rem;
+    }
+
+    .btn.btn-outline-info {
+        margin-right: 4rem;
     }
 }
 
@@ -115,12 +128,16 @@
     }
 
     .heading {
-        background-position-y: 7rem;
+        background-position-y: 5rem;
         background-position-x: 0rem;
     }
 
     .heading h1 {
         font-size: 2.6rem;
+    }
+
+    .btn.btn-outline-info {
+        margin-right: 5rem;
     }
 }
 
@@ -131,7 +148,7 @@
     }
 
     .heading {
-        background-position-y: 10rem;
+        background-position-y: 8rem;
         background-position-x: 0rem;
     }
 
@@ -157,7 +174,7 @@
     }
 
     .heading {
-        background-position-y: 10rem;
+        background-position-y: 8rem;
         background-position-x: 0rem;
     }
 
@@ -187,7 +204,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .frontPage {
         height: 11rem;
         width: 14rem;
@@ -215,6 +232,10 @@
 
     .heading h5 {
         font-size: 0.8rem;
+    }
+
+    .btn.btn-outline-info {
+        display: none;
     }
 }
 
@@ -301,10 +322,26 @@
 }
 
 .heading h1 {
+    color: #03858f;
     font-weight: 700;
     font-family: 'Exo', sans-serif;
     text-transform: uppercase;
     letter-spacing: .1rem;
+}
+
+.heading h5 {
+    color: #3786b4;
+}
+
+.btn.btn-outline-info {
+    border: .1rem solid #03858f;
+    color: #03858f;
+}
+
+.btn.btn-outline-info:hover {
+    background-color: #3786b4;
+    border-color: #3786b4;
+    color: #000;
 }
 
 /* .bg{
