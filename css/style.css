@@ -302,11 +302,6 @@
     }
 }
 
-
-
-
-
-
 .heading {
     /* position: relative; */
     display: flex;
@@ -353,3 +348,8 @@
     background-repeat: no-repeat;
     background-size: contain;
 } */
+
+.card-img-top{
+    height:15rem;
+
+}
